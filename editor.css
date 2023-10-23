@@ -1,0 +1,75 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+/* CSS do meu perfil profissional */
+/* OBS: Deixei o CSS através da ordem do HTML para eu não me perder ^^*/
+#button{
+    background-color: chocolate;
+    width: 300px;
+    text-align: center;
+}
+.detail{
+    display: grid;
+    grid-template-columns: 100px, 100px, 100px, 100px;
+    grid-template-rows: 100px, 100px, 100px, 100px;
+    background-color: rgb(59, 110, 155);
+}
+h4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.Img{
+    width: 221px;
+    height: 200px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.Tabela{
+    background-color:darkgreen;
+    text-align:justify;
+    width: 260px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.th{
+    color: brown;
+}
+.preenchimento{
+    color: white;
+}
+#formacao{
+    color:chartreuse;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-weight: bold;
+}
+/* A partir daqui é o CSS do meu prefil */
+h1{
+    background-color: black;
+    color:chocolate;
+}
+.LOL{
+    width: 200px;
+    height: 100px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.Eurobeat{
+    width: 200px;
+    height: 100px;
+}
+.Messi{
+    width: 100%;
+    height: 400px;
+}
